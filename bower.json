@@ -1,0 +1,21 @@
+{
+  "name": "jekyll",
+  "authors": [
+    "the1alt <thibaut.faurel@gmail.com>"
+  ],
+  "description": "Metal Band",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.0",
+    "flexslider": "^2.6.3"
+  }
+}
