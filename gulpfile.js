@@ -40,7 +40,7 @@ gulp.task('default',['browser-sync', 'css', 'pluginCss', 'pluginJs', 'js', 'html
 gulp.task('pluginCss',function(){
    console.log('Ma tâche pour le css de mes plugins...');
 
-   return gulp.src(['wimpy/wimpy.css', './bower_components/materialize/dist/css/materialize.css', './bower_components/flexslider/flexslider.css', ])
+   return gulp.src(['./bower_components/materialize/dist/css/materialize.css', './bower_components/flexslider/flexslider.css', ])
    .pipe(autoprefixer({
      browsers:['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'],
     cascade:false}))
