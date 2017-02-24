@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR">
   <head>
     <meta charset="utf-8">
     <title>Jekyll</title>
     <meta name="description" content="Groupe de metal lyonnais">
     <meta name="keywords" content="groupe, metal, lyon, heavy, hard">
+    <meta http-equiv="content-language" content="fr-FR" />
+    <meta name="language" content="fr-FR" />
     <!-- Import Main Font -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="dist/pluginBundle.min.css">
     <!-- Custom CSS -->
@@ -18,19 +21,23 @@
 			<h2>to hide</h2>
 			<h2>in order to</h2>
 			<h2>come alive</h2>
+      <button type="button" class="btn btn-default" id="skip-intro">
+        passer l'intro<i class='fa fa-chevron-right'></i><i class='fa fa-chevron-right'></i>
+      </button>
 		</div>
     <header>
         <h1 id="title">JEKYLL</h1>
     </header>
     <main>
-      <div id="index">
+      <div id="index" title="Cliquer pour entrer">
         <div class="index-left">
-          <img id="imgindexLeft" src="img/jekyll-index-left.png" alt="logo du groupe Jekyll" title="logo du groupe Jekyll"/>
+          <img id="img-index-left" src="img/jekyll-index-left.png" alt="logo du groupe Jekyll" title="Cliquer pour entrer"/>
         </div>
         <div class="index-right">
-          <img id="imgindexRight" src="img/jekyll-index-right.png" alt="logo du groupe Jekyll" title="logo du groupe Jekyll"/>
+          <img id="img-index-right" src="img/jekyll-index-right.png" alt="logo du groupe Jekyll" title="Cliquer pour entrer"/>
         </div>
       </div>
+
       <div class="diviser"></div>
 
       <div class="container">
@@ -67,13 +74,13 @@
           </div>
           <div class="col m4 contain">
             <div id="card">
-              <img src="img/jekyll.png" alt="Voir le diaporama diapos" class="goto-diaporama front">
-              <img src="img/jekyll2.png" alt="retour" class="goto-diaporama back">
+              <img src="img/jekyll.png" alt="Voir le diaporama" class="goto-diaporama front" title="voir les photos">
+              <img src="img/jekyll2.png" alt="retour" class="goto-diaporama back" title="retour vers présentation">
             </div>
           </div>
           <div class="col m4">
             <div id="player">
-              <div data-wimpyplayer data-skin="dist/jekyll2.tsv" data-startUpText='{"title":"","album":"Hide","artist":"Jekyll"}' data-random=1 data-infoFormat="2 - 1" data-media='[{"title":"Never Forget","file":"mp3/neverforget.mp3","album":"Hide","artist":"Jekyll"},{"title":"La deuzzz","file":"mp3/ladeuzzz.mp3","album":"Hide","artist":"Jekyll"},{"title":"Macadam Bitch","file":"mp3/macadambitch.mp3","album":"Hide","artist":"Jekyll"},{"title":"Next Teen","file":"mp3/nextteen.mp3","album":"Hide","artist":"Jekyll"},{"title":"New One Tone","file":"mp3/newonetone.mp3","album":"Hide","artist":"Jekyll"}]'></div>
+              <div data-wimpyplayer data-skin="dist/jekyll2.tsv" data-startUpText='{"title":"","album":"Hide","artist":"Jekyll"}' data-random=0 data-infoFormat="2 - 1" data-media='[{"title":"Never Forget","file":"mp3/neverforget.mp3","album":"Hide","artist":"Jekyll"},{"title":"La deuzzz","file":"mp3/ladeuzzz.mp3","album":"Hide","artist":"Jekyll"},{"title":"Macadam Bitch","file":"mp3/macadambitch.mp3","album":"Hide","artist":"Jekyll"},{"title":"Next Teen","file":"mp3/nextteen.mp3","album":"Hide","artist":"Jekyll"},{"title":"New One Tone","file":"mp3/newonetone.mp3","album":"Hide","artist":"Jekyll"}]'  data-autoPlay=1></div>
             </div>
           </div>
         </div>
